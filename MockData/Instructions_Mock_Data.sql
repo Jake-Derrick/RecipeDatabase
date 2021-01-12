@@ -1,3 +1,9 @@
+CREATE TABLE IF NOT EXISTS instructions (
+`ID` INT NULL,
+`instruction` VARCHAR(512) NULL,
+`rcpID` INT NULL
+);
+
 insert into mydb10.instructions (ID, Instruction, rcpID) values (1, 'Suspendisse potenti.', 696);
 insert into mydb10.instructions (ID, Instruction, rcpID) values (2, 'Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 808);
 insert into mydb10.instructions (ID, Instruction, rcpID) values (3, 'Aenean auctor gravida sem.', 659);
