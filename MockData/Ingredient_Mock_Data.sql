@@ -1,3 +1,8 @@
+CREATE TABLE IF NOT EXISTS ingredient (
+`ID` INT NULL,
+`name` VARCHAR(128) NULL
+);
+
 insert into mydb10.ingredient (ID, name) values (1, 'Puree - Blackcurrant');
 insert into mydb10.ingredient (ID, name) values (2, 'Tuna - Salad Premix');
 insert into mydb10.ingredient (ID, name) values (3, 'Plasticforkblack');
