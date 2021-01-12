@@ -1,3 +1,14 @@
+CREATE TABLE IF NOT EXISTS recipe (
+`ID` INT NULL,
+`name` VARCHAR(45) NULL,
+`prepTime` INT NULL,
+`cookTime` INT NULL,
+`totalTime` INT NULL,
+`type` VARCHAR(45) NULL,
+`link` VARCHAR(512) NULL
+);
+
+
 INSERT INTO mytable(ID,name,prepTime,cookTime,totalTime,type,link) VALUES (1,'sapien in sapien',13,95,108,'Lunch','http://usa.gov/lacus/morbi/sem.js');
 INSERT INTO mytable(ID,name,prepTime,cookTime,totalTime,type,link) VALUES (2,'nisi eu',5,99,104,'Breakfast','https://narod.ru/nunc/proin/at/turpis.jsp');
 INSERT INTO mytable(ID,name,prepTime,cookTime,totalTime,type,link) VALUES (3,'sagittis dui',14,28,42,'Breakfast','https://mail.ru/dictumst/morbi/vestibulum/velit/id.js');
