@@ -1,3 +1,9 @@
+CREATE TABLE IF NOT EXISTS notes (
+`ID` INT NULL,
+`note` VARCHAR(512) NULL,
+`savedID` int NULL
+);
+
 insert into mydb10.notes (ID, note, savedID) values (1, 'Nulla tellus. In sagittis dui vel nisl.', 877);
 insert into mydb10.notes (ID, note, savedID) values (2, 'Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 813);
 insert into mydb10.notes (ID, note, savedID) values (3, 'Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 965);
