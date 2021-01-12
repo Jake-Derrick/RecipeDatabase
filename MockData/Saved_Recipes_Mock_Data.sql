@@ -1,3 +1,10 @@
+CREATE TABLE IF NOT EXISTS saved_recipe (
+`ID` INT NULL,
+`rcpID` INT NULL,
+`userID` INT NULL
+);
+
+
 insert into mydb10.saved_recipe (ID, rcpID, userID) values (1, 227, 853);
 insert into mydb10.saved_recipe (ID, rcpID, userID) values (2, 666, 393);
 insert into mydb10.saved_recipe (ID, rcpID, userID) values (3, 86, 414);
