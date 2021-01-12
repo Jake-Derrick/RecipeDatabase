@@ -1,3 +1,10 @@
+CREATE TABLE IF NOT EXISTS ingredient_amount (
+`ID` INT NULL,
+`ingID` INT NULL,
+`rcpID` INT NULL,
+`amount` VARCHAR(45) NULL
+);
+
 insert into mydb10.ingredient_amount (ID, rcpID, ingID, amount) values (1, 946, 432, '17 pint(s)');
 insert into mydb10.ingredient_amount (ID, rcpID, ingID, amount) values (2, 518, 19, '8 tsp(s)');
 insert into mydb10.ingredient_amount (ID, rcpID, ingID, amount) values (3, 827, 478, '16 tsp(s)');
