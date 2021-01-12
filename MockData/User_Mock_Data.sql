@@ -1,3 +1,13 @@
+CREATE TABLE IF NOT EXISTS user (
+`ID` INT NULL,
+`username` VARCHAR(45) NULL,
+`passwordHash` VARCHAR(64) NULL,
+`email` VARCHAR(45) NULL,
+`name` VARCHAR(45) NULL,
+`salt` VARCHAR(8) NULL
+);
+
+
 INSERT INTO mytable(ID,username,passwordHash,email,name,salt) VALUES (1,'aricarde0','e11bbed9ee5778e75d965d735842709b2fa6656019b7d04555de30eeb33459d5',NULL,'Andres','Q6tFB7fM');
 INSERT INTO mytable(ID,username,passwordHash,email,name,salt) VALUES (2,'aszachniewicz1','031fcaf795b512e41958d6ac300673f1c0b3c0a8afeef372b3d0c6cf54c71370',NULL,'Andree','K3mPQVt1');
 INSERT INTO mytable(ID,username,passwordHash,email,name,salt) VALUES (3,'tfruin2','491e9d38092a785270b250d5dd3bf3ff9584f67a2d85988b0f085536b925ee0d',NULL,'Teriann','Q3tUDQx4');
