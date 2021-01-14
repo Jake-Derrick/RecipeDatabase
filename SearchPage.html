@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Search</title>
+        <h1>Search for a recipe!</h1>
+    </head>
+    <body>
+        <form action="results.php" method="GET">
+            <select id="filter" class="filter" name="filter">
+                <option value="">Search by..</option>
+                <option value="recipeName">Recipe Name</option>
+                <option value="ingredient">Ingredient</option>
+                <option value="type">Type</option>
+            </select>
+            <input type="text" class="searchTerm" placeholder="Search..." name="search">
+            <input type="submit" value="Search" class="button">
+        </form>
+    </body>
